@@ -53,8 +53,8 @@ filtered = df[
 
 if region != '전체':
     filtered[filtered['region'] == region]
-else :
-    filtered
+# else :
+#     filtered
 
 # st.dataframe(filtered)
 
